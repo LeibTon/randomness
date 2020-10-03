@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+body {
+  margin: 0;
+  padding: 5px 5px;
+}
+
+.heading_of_page{
+font-family: 'Allura', cursive;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 8px;
+font-size: 1.7rem;
+color: #5eaaa8;
+}
+
+.input-form {
+  text-align: center;
+  padding: 0 10px;
+}
+.input-details {
+  width: 100%;
+  text-align: left;
+  font-size: 1.1rem;
+}
+.submit-details {
+  text-align: left;
+}
+
+.total-input {
+  font-family: 'Rajdhani', sans-serif;
+  color: green;
+}
+
+.input-error {
+  margin-left: 5px;
+  font-family: 'Shadows Into Light', cursive;
+  color: red;
+}
+
+.input-form input {
+  background: #e4e3e3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #84a9ac;
+  color: #204051;
+  display: block;
+  font-size: 1rem;
+  padding: 5px 10px;
+  width: 97%;
+  margin-bottom: 10px;
+}
+
+
+.submit-details button {
+  color: #0f3057;
+  background-color: #008891;
+  border-radius: 0;
+  border: 1px solid #00587a;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  padding: 2.5px 10px;
+}
+
+.submit-details button:hover {
+  background-color: #0f3057;
+  color: #ffffff;
+  border: 1px solid #0f3057;
+}
+
+
+.submit-details .input-error {
+  margin-left: 1px;
+  font-size: 1.1rem;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+.content-heading {
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 1.8rem;
+font-family: 'Playfair Display', serif;
+color: #40514e;
+
+}
+
+.content-description {
+font-size: 1.1rem;
+line-height: 1.3rem;
+font-family: 'Montserrat', sans-serif;
+color: #00adb5;
+}
+
+.content-subheading {
+font-size: 1.3rem;
+font-family: 'Raleway', sans-serif;
+color: #3f72af;
+font-weight: 400;
+}
+
+.explore {
+font-size: 1.2rem;
+color: #0f3057;}
+
+.plot-details {
+border-left: 3px solid lightgrey;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+padding: 0px 20px;
+font-size: 1.1rem;
+line-height: 1.4rem;
+color: rgba(0,0,0,0.6);
+}
+
+.plot-input-details {
+padding: 0px 20px 0px 0px;
+}
+
+.plot-input-details table{
+border-left: 2px solid lightgreen;
+border-right: 2px solid lightgreen;
+
+}
+.heading_for_down{
+margin-left: 10px;
+margin-bottom: 5px;
+font-family: 'Playfair Display', serif;
+font-size: 1.4rem;
+}
+.plot-input-details td{
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
+padding: 3px 8px;
+vertical-align: top;
+}
+
+.plot-input-details .break{
+font-family: 'Roboto', sans-serif;
+font-size: 1.2rem;
+word-break: break-all;}
+
+.plot-title {
+font-family: 'Playfair Display', serif;
+font-size: 1.2rem;
+}
+
+
+.chart-plot {
+width: 95%;
+text-align: center;
+float: left;
+}
+
+
+.ar-model-input{
+font-family: 'Playfair Display', serif;
+font-size: 1.4rem;
+width: 24px;
+margin-right: 0;
+margin-left: 10px;
+border-radius: 0;
+border: 1px solid lightgrey;
+padding:0px 10px 5px 10px;
+
+}
+
+.armodel-container {
+border-left: 1px solid lightblue;
+border-right: 1px solid lightblue;
+padding: 15px 15px 5px 10px;
+
+}
+.token-head{
+margin-top: 10px;
+margin-bottom: 5px;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 1.3rem;
+}
+
+.special_markdown{
+font-size: 0.5rem;
+}
+.token {
+font-family: 'Roboto', sans-serif;
+font-size: 1.2rem;
+margin-right: 10px;
+}
+.token_des{
+word-break: break-all;
+font-family: 'Roboto', sans-serif;
+font-size: 1.2rem;
+}
+
+.collll{
+color: green;
+font-weight: bolder;
+margin-top: 20px;
+}
+
+@media screen and (min-width: 720px) {
+.input-details {
+font-size: 1.4rem;
+}
+
+a{
+text-decoration:none;
+color: lightgrey;
+}
+
+a:hover{
+text-decoration:none;
+color:red;}
+
+.input-error {
+  margin-left: 16px;
+}
+.submit-details button {
+  font-size: 1.3rem;
+  padding: 2.5px 10px;
+}
+.submit-details .input-error {
+  font-size: 1.4rem;
+  margin-left: 15px;
+}
+.input-form input {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  width: 95%;
+}
+
+.chart-plot {
+width: 46%;
+margin-left: 1.5%;
+margin-right: 2.5%;
+}
+
+}
