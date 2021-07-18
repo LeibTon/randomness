@@ -1,6 +1,6 @@
 #! /bin/bash
-source=/home/legolas/Documents/Web\ development/Random_experiment/random_experiment
-dest=/home/legolas/Documents/Web\ development/Random_experiment/random_experiment_to_push
+source=/home/leibton/Documents/Web\ Development/Random_experiment/random_experiment
+dest=/home/leibton/Documents/Web\ Development/Random_experiment/random_experiment_to_push
 srccode=SourceCode
 cd "$source"
 echo "Building React Code"

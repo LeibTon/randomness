@@ -2,7 +2,7 @@
 
 ### Just a random experiment on randomness
 
-This project is based on Autoregressive models trying to predict your randomness in generating a sequence of 0's and 1's.
+This project is based on Autoregressive models trying to predict your randomness in generating a sequence of 0's and 1's.(whole thing based on a Neuromatch tutorial.)  
 [Let's Explore Randomness](https://prakashaditya369.github.io/randomness)
 
 ## Source Code:
