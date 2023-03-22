@@ -49,7 +49,7 @@ function App() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({"random": random,"r":21,"part":4})
       };
-      fetch("https://projectflaskserver.herokuapp.com/project/random_experiment/", requestOptions)
+      fetch("https://flaskbackend-p5ch.onrender.com/", requestOptions)
         .then((response) => response.json())
         .then(data=> {
           console.log(data)
