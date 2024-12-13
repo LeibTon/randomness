@@ -13,7 +13,7 @@ The backend of the code is developed using Flask framework. It can be accessed [
 
 Makes use of chart.js to display beautiful visualisations.
 
-Deployed on [onrender](onrender.com)
+Deployed on [onrender](https://render.com)
 
 ## Additional Scripts:
 
