@@ -13,6 +13,8 @@ The backend of the code is developed using Flask framework. It can be accessed [
 
 Makes use of chart.js to display beautiful visualisations.
 
+Deployed on [onrender](onrender.com)
+
 ## Additional Scripts:
 
 - [compile.sh](/compile.sh): Shell Script to build the react code. Copy the compiled code into the folder to be pushed and source code in SourceCode folder. Then pushes the entire code to Github.
